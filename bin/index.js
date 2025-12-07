@@ -85,7 +85,6 @@ async function main() {
 
   console.log(green('\n✅ 프로젝트 생성이 완료되었습니다!\n'));
   console.log(cyan(`  cd ${projectName}`));
-  console.log(cyan('  npm run start        # 또는 yarn, pnpm 에 맞게 실행\n'));
 }
 
 main().catch((e) => {
