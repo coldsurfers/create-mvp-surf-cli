@@ -1,12 +1,8 @@
 {
   "name": "@coldsurfers/create-mvp-surf-cli",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [
-    "create-mvp-surf",
-    "cli",
-    "template"
-  ],
+  "version": "1.0.1",
+  "description": "Create a new Mvp Surf project",
+  "keywords": ["create-mvp-surf", "cli", "template"],
   "homepage": "https://github.com/coldsurfers/create-mvp-surf-cli/tree/HEAD/packages/create-mvp-surf-cli#readme",
   "bugs": "https://github.com/coldsurfers/create-mvp-surf-cli/issues",
   "repository": {
@@ -19,10 +15,7 @@
   "bin": {
     "create-mvp-surf": "bin/index.js"
   },
-  "files": [
-    "bin",
-    "package.json"
-  ],
+  "files": ["bin", "package.json"],
   "scripts": {
     "check": "biome check .",
     "check:fix": "biome check --write .",

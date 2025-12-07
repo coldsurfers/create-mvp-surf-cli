@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import degit from 'degit';
-import { cyan, green, red } from 'kleur/colors.js';
+import { cyan, green, red } from 'kleur/colors';
 import prompts from 'prompts';
 
 const __filename = fileURLToPath(import.meta.url);
