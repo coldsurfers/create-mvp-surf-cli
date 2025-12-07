@@ -1,0 +1,35 @@
+{
+  "name": "@coldsurfers/create-mvp-surf-cli",
+  "version": "1.0.0",
+  "description": "",
+  "files": ["bin", "package.json"],
+  "main": "index.js",
+  "bin": {
+    "create-mvp-surf": "bin/index.js"
+  },
+  "scripts": {
+    "check": "biome check .",
+    "check:fix": "biome check --write .",
+    "format": "biome format .",
+    "format:fix": "biome format --write .",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.14.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "degit": "^2.8.4",
+    "kleur": "^4.1.5",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@commitlint/config-conventional": "^17.0.2",
+    "@evilmartians/lefthook": "^1.12.3"
+  }
+}
