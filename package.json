@@ -1,6 +1,6 @@
 {
   "name": "@coldsurfers/create-mvp-surf-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create a new Mvp Surf project",
   "keywords": ["create-mvp-surf", "cli", "template"],
   "homepage": "https://github.com/coldsurfers/create-mvp-surf-cli/tree/HEAD/packages/create-mvp-surf-cli#readme",
