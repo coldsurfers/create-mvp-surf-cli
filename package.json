@@ -2,11 +2,27 @@
   "name": "@coldsurfers/create-mvp-surf-cli",
   "version": "1.0.0",
   "description": "",
-  "files": ["bin", "package.json"],
+  "keywords": [
+    "create-mvp-surf",
+    "cli",
+    "template"
+  ],
+  "homepage": "https://github.com/coldsurfers/create-mvp-surf-cli/tree/HEAD/packages/create-mvp-surf-cli#readme",
+  "bugs": "https://github.com/coldsurfers/create-mvp-surf-cli/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coldsurfers/create-mvp-surf-cli.git"
+  },
+  "license": "ISC",
+  "author": "",
   "main": "index.js",
   "bin": {
     "create-mvp-surf": "bin/index.js"
   },
+  "files": [
+    "bin",
+    "package.json"
+  ],
   "scripts": {
     "check": "biome check .",
     "check:fix": "biome check --write .",
@@ -14,13 +30,6 @@
     "format:fix": "biome format --write .",
     "lint": "biome lint .",
     "lint:fix": "biome lint --write ."
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.14.0",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "degit": "^2.8.4",
@@ -31,5 +40,9 @@
     "@biomejs/biome": "1.9.4",
     "@commitlint/config-conventional": "^17.0.2",
     "@evilmartians/lefthook": "^1.12.3"
+  },
+  "packageManager": "pnpm@10.14.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
